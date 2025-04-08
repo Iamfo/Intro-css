@@ -2,3 +2,34 @@ p{
     color: blue;
     text-align: right;
 }
+.main__item{
+    font-size: 30px;
+}
+
+h1{ 
+    color: aqua;
+}
+
+h2{
+    color: blue;
+}
+
+h3{
+    color: red;
+}
+
+h4{
+    color:brown
+}
+
+h5{
+    color: green;
+}
+
+#development{
+    background-color:whitesmoke;
+}
+
+h6{
+    color: grey;
+}
