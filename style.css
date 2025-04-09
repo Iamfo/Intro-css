@@ -9,7 +9,7 @@ p{
     color: blue;
     text-align: right;
 }
-.main__item{
+.item{
     font-size: 30px;
 }
 
@@ -37,11 +37,25 @@ h1{
 .vacation:hover{
     background: purple;
     color: rgb(133, 179, 48);
-
 }
 
+a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: skyblue;
+}
+
+a:hover{
+    background:aliceblue ;
+    color: aqua;
+}
 h2{
     color: blue;
+}
+
+.item-weather{
+    border: 3px solid blue;
+    margin: 30px;
 }
 
 h3{
