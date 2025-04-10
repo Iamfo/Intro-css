@@ -106,3 +106,16 @@ h6 {
     background-color: khaki;
 }
 /* Assegnazione multipla end */
+
+#cathedral {                      /* Specifità */
+    color: mediumblue;
+    font-size: 50px;          /* il più forte vince */
+}
+.duomo{
+    color: darkslateblue;
+    font-size: 70px;
+}
+.note p{
+    color: magenta;
+    font-size: 90px;
+}                                 /* Specifità end */
