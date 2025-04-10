@@ -7,7 +7,7 @@
 }
 /* selettore universale end */
 
-p {
+.first-p {
     color: blue;         /* primo paragrafo colorato */
     text-align: right;     /* allineamento testo destra */
     font-size: 30px;
@@ -54,7 +54,7 @@ a:hover {
     color: aqua;
 }
 
-h2 {
+.item-weather h2 {
     color: blue;
 }
 
@@ -87,7 +87,7 @@ h5 + p {
 }
 
 #development {                  /* selettore ID */
-    background-color: lightgray; /
+    background-color: lightgray; 
 }
 
 h6 {
@@ -119,3 +119,19 @@ h6 {
     color: magenta;
     font-size: 90px;
 }                                 /* Specifità end */
+
+.visit-me-too {                                                              /* Heredity */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    border: 4px solid red;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 31px;
+    color: olivedrab;
+    text-align: center;
+}                                                                            /* Heredity end */
+
+ul {
+    list-style-type: none;
+}
